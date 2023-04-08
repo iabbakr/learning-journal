@@ -10,21 +10,101 @@ body {
 .header{
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    padding: 20px 15px 15px;
     background-color: #FFFFFF;
     width: 100%;
     height: 83px;
     justify-content: space-between;
+    border-bottom: 1px solid black;
 
 
 }
 .logo{
     height: 34px;
-    width: 150px;
+    width: 105px;
 
 }
 .ul-items{
     display: flex;
     flex-direction: row;
     gap: 10px;
+}
+.section{
+    padding: 90px 50px 20;
+
+}
+.about-me{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+.author-img{
+    width: 20%;
+    height: 100%;
+    border-radius: 50%;
+    margin-left: 6px;
+
+}
+.author-about{
+    margin-top: 0;
+    width: 70%;
+
+}
+.about-me-info{
+    width: 100%;
+    height: auto;
+}
+.section-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+.title{
+    text-align: center;
+    grid-column: 1/-1;
+
+
+}
+.grid-info{
+    display: flex;
+    flex-direction: column;
+
+}
+.grid-imgs{
+    width: 100%;
+    height:200px;
+    display: block;
+}
+span{
+    color: grey;
+
+}
+h4{
+    margin: 12px 0 8px;
+}
+p{
+    margin: 0;
+    color:#505050;
+
+
+}
+.footer{
+    text-align: center;
+    padding: 10px auto 50px;
+    background-color:#1E1E1E ;
+    height: 170px;
+    color: white;
+    padding-top: 20px;
+}
+
+
+@media (max-width:200px){
+    .section{
+        width: 200px;
+    }
 }
